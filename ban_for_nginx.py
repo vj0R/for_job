@@ -3,7 +3,7 @@
 import re
 import os
 
-IP = "192.168.1.1"
+IP = "192.168.1.100" # NGINX SERVER
 file=open("/var/log/iptables.log")
 sp=re.findall('[\d]+\.[\d]+\.[\d]+\.[\d]+', file.read())
 

@@ -12,6 +12,7 @@ upstream app {
 	server 192.168.1.1;
 	server 192.168.1.2;
 	server 192.168.1.3;
+	...
   }
 
 
